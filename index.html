@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google font "Roboto" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!-- master css -->
+    <link rel="stylesheet" href="css/master.css">
+    <title>Bondi</title>
+</head>
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <img class="navbar-brand" src="resources/Logo.png" alt="">
+            <button class="navbar-toggler bg-info-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-info-subtle"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portofolio">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="search fs-5 ps-1 pe-1 border-start d-none d-lg-block">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="text-center">
+                    <button class="btn main-btn rounded-pill" type="submit">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start landing -->
+    <div class="landing d-flex justify-content-center align-items-center">
+        <div class="text-center text-light fw-normal">
+            <h1 class="text-capitalize">taste the creativity</h1>
+            <p class="fs-5 text-white-50 mb-5">We make awesome graphics and web design</p>
+            <button class="btn main-btn rounded-pill" type="submit">Get Started</button>
+        </div>
+    </div>
+    <!-- end landing -->
+    <!-- start services -->
+    <div id="services" class="features pb-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="main-heading mb-5 position-relative">
+                        <div class="text-center">
+                            <img class="p-5" src="resources/heading_component.png" alt="">
+                            <h2 class="text-capitalize">we are good at</h2>
+                            <p class="text-uppercase text-black-50">This stuff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="feature-card mt-5 position-relative col-md-6 col-lg-4">
+                    <i class="fa-solid fa-pencil fs-1"></i>
+                    <h4 class="text-capitalize">graphic design</h4>
+                    <p class="text-black-50 lh-lg d-none d-sm-block">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+                <div class="feature-card mt-5 position-relative col-md-6 col-lg-4">
+                    <i class="fa-solid fa-display fs-1"></i>
+                    <h4 class="text-capitalize">web design</h4>
+                    <p class="text-black-50 lh-lg d-none d-sm-block">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+                <div class="feature-card mt-5 position-relative col-md-6 col-lg-4">
+                    <i class="fa-solid fa-plug fs-1"></i>
+                    <h4 class="text-capitalize">app design</h4>
+                    <p class="text-black-50 lh-lg d-none d-sm-block">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end services -->
+    <!-- start portofolio -->
+    <div id="portofolio" class="portofolio text-center pb-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="main-heading mb-5 position-relative">
+                        <div class="text-center">
+                            <img class="p-5" src="resources/heading_component.png" alt="">
+                            <h2 class="text-capitalize">we make this</h2>
+                            <p class="text-uppercase text-black-50">prepare to be amazed</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="list-group list-group-horizontal-lg text-center p-5">
+                <button type="button" class="list-group-item list-group-item-action active">All</button>
+                <button type="button" class="list-group-item list-group-item-action text-black-50">Design</button>
+                <button type="button" class="list-group-item list-group-item-action text-black-50">Code</button>
+                <button type="button" class="list-group-item list-group-item-action text-black-50">Photography</button>
+                <button type="button" class="list-group-item list-group-item-action text-black-50">Apps</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item-card text-center m-5">
+                    <img src="resources/work_1.png" alt="" class="rounded img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item-card text-center m-5">
+                    <img src="resources/work_2.png" alt="" class="rounded img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item-card text-center m-5">
+                    <img src="resources/work_3.png" alt="" class="rounded img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item-card text-center m-5">
+                    <img src="resources/work_4.png" alt="" class="rounded img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item-card text-center m-5">
+                    <img src="resources/work_5.png" alt="" class="rounded img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item-card text-center m-5">
+                    <img src="resources/work_6.png" alt="" class="rounded img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item-card text-center m-5">
+                    <img src="resources/work_7.png" alt="" class="rounded img-fluid">
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="item-card text-center m-5">
+                    <img src="resources/work_8.png" alt="" class="rounded img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn main-btn rounded-pill text-uppercase" type="submit">i want more...</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>        
+    <!-- end portofolio -->
+    <!-- start about -->
+    <div id="about" class="about pt-5 pb-5">
+        <div class="about-intro">
+            <div class="container">     
+                    <div class="row">
+                        <div class="col">
+                            <div class="main-heading mb-5 position-relative">
+                                <div class="text-center">
+                                    <img class="p-5" src="resources/heading_component.png" alt="">
+                                    <h2 class="text-capitalize">some stuff about us</h2>
+                                    <p class="text-uppercase text-black-50">the great team</p>
+                                </div>
+                            </div>
+                            <p class="text-center lh-lg text-black-50 d-flex justify-content-center align-items-center d-none d-sm-block">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-lg-start text-center pt-4">
+                            <h3 class="text-capitalize ">retina design</h3>
+                            <p class="col-lg-6 text-black-50 d-none d-sm-block">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. </p>
+                            <p class="col-lg-6 text-black-50 d-none d-sm-block">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                            <img class="img-fluid d-block d-sm-none mb-2" src="resources/Screen.png" alt="">
+                            <button class="btn main-btn rounded-pill text-uppercase mb-2" type="submit">order me one</button>
+                        </div>
+                        <div class="col d-none d-sm-block">
+                            <img class="img-fluid" src="resources/Screen.png" alt="">
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="about-team pt-5 pb-5">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="text-capitalize text-warning fw-bold">meet the team</h3>
+                    <p class="text-black-50 lh-lg d-none d-sm-block">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="resources/Luke_Skywalker.png" alt="">
+                            <h4 class="card-title text-center text-capitalize p-3 text-light">luke skywalker</h4>
+                            <div class="card-body text-center">
+                                <p class="card-text text-black-50">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top " src="resources/Obi_Wan_Kenobi.png" alt="">
+                            <h4 class="card-title text-center text-capitalize p-3 text-light">obi wan kenobi</h4>
+                            <div class="card-body text-center">
+                                <p class="card-text text-black-50">“Your clones are very impressive. You must be very proud”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="resources/Princess_Leia.png" alt="">
+                            <h4 class="card-title text-center text-capitalize p-3 text-light">princess leia</h4>
+                            <div class="card-body text-center">
+                                <p class="card-text text-black-50"> “I don't know who you are or where you came from, but from now on you'll do as I tell you, okay?” </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <img class="card-img-top" src="resources/Yoda.png" alt="">
+                            <h4 class="card-title text text-capitalize text-center p-3 text-light">yoda</h4>
+                            <div class="card-body text-center">
+                                <p class="card-text text-black-50">“Do not assume anything Obi-Wan. Clear your mind must be if you are to discover the real villains behind this plot.” </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="about-testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col pt-4 text-center">
+                        <img src="resources/client_1.png" class="m-5" alt="">
+                        <img src="resources/client_2.png" class="m-5" alt="">
+                        <img src="resources/client_3.png" class="m-5" alt="">
+                        <img src="resources/client_4.png" class="m-5" alt="">
+                        <img src="resources/client_5.png" class="m-5" alt="">
+                        <img src="resources/client_6.png" class="m-5" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- start project -->
+    <div class="project mt-5 mb-5 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2 class="text-capitalize text-light">start your project now</h2>
+                    <p class="text-white-50 d-none d-sm-block">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+                    <button class="btn main-btn rounded-pill text-uppercase m-5" type="submit">start project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end project -->
+    <!-- start blog -->
+    <div class="blog mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="main-heading mb-5 position-relative">
+                        <div class="text-center">
+                            <img class="p-5" src="resources/heading_component.png" alt="">
+                            <h2 class="text-capitalize">read our blog</h2>
+                            <p class="text-uppercase text-black-50">new stories</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="resources/blog.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-subtitle text-black-50">January 17, 2017</h5>
+                            <h4 class="card-title text-capitalize p-3">blog title</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="resources/blog.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-subtitle text-black-50">January 17, 2017</h5>
+                            <h4 class="card-title text-capitalize p-3">blog title</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img class="card-img-top" src="resources/blog.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-subtitle text-black-50">January 17, 2017</h5>
+                            <h4 class="card-title text-capitalize p-3">blog title</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn main-btn rounded-pill text-uppercase m-5" type="submit">more stories</button>
+                </div>
+            </div>
+        </div>
+        <!-- end blog -->
+        <!-- start newsletter -->
+        <div class="newsletter pt-5 pb-5 text-center text-md-start">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-lg-3">
+                        <h5 class="text-capitalize text-center">subscribe to our newsletter:</h5>
+                    </div>
+                    <div class="col-md-4 col-lg-7">
+                        <input class="w-100 mb-5 mb-sm-0 bg-transparent p-2 text-light email-in" type="email" placeholder="Enter Email Address" label id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="col">
+                        <button class="btn main-btn rounded-pill text-capitalize sub-btn text-end" type="submit">subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end newsletter -->
+        </div>
+        <!-- start footer -->
+        <div class="footer pt-5 text-white-50 text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <img src="resources/Logo.png" alt="" class="img-fluid">
+                    <p class="p-3 text-white-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    <p class="text-white acknowledgement">Created by <span>Graphberry</span>, Belgrade, Serbia</p>
+                    <p class="text-white copyright">&copy; 2017 - <span>Bondi.Inc</span></p>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="text-capitalize text-white">links</h5>
+                    <ul class="list-unstyled lh-lg">
+                        <li>Home</li>
+                        <li>Our Services</li>
+                        <li>Portofolio</li>
+                        <li>Testimonials</li>
+                        <li>Support</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <h5 class="text-capitalize text-white">about us</h5>
+                    <ul class="list-unstyled lh-lg">
+                        <li>Sign In</li>
+                        <li>Register</li>
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h5 class="text-capitalize text-white">contact us</h5>
+                    <p class="lh-lg">Get in touch with us via mail phone.We are waiting for 
+                        your call or message</p>
+                    <button class="btn main-btn rounded-pill w-100 text-capitalize mt-4 text-center" type="submit">graphberry@gmail.com</button>
+                    <div class="links">
+                        <ul class="list-unstyled mt-5 d-flex align-items-center fs-3 justify-content-center gap-4">
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com"><i class="facebook fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.twitter.com"><i class="twitter fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.google.com"><i class="google fa-brands fa-google"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.wikipedia.com"><i class="wikipedia fa-brands fa-wikipedia-w"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
