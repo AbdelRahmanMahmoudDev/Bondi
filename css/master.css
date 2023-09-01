@@ -16,6 +16,9 @@
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
+.main-btn a{
+    color: var(--yellow-color);
+}
 .main-heading::after {
     content: "";
     position: absolute;
