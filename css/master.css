@@ -112,8 +112,8 @@ svg {
     -o-border-radius: 0.375rem;
     left: 0;
     top: -24px;
-    background-color: rgb(0 0 0 / 50%);
-    color: white;
+    background-color: rgb(255 255 255 / 75%);
+    color: #000;
     width: 100%;
     transition: 0.3s;
     -webkit-transition: 0.3s;
